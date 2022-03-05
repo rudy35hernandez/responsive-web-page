@@ -5,17 +5,25 @@ body{
     margin: 0;
 }
 
+
+/* typography */
+
 h1{
     font-size: 3rem;
-    color: #312614
+    color: #312614;
+    text-align: center;
 }
 
 h2{
     font-size: 1.5rem
 }
 
-span{
+h1 span{
     color: #b7832f
+}
+
+p {
+    margin-top: 0;
 }
 
 img{
@@ -30,4 +38,30 @@ img{
 
 .columns{
     display: flex;
+    margin: 1em 0;
+    justify-content: space-between;
+}
+
+
+
+.col-1{
+    width: 20%;
+    border: green solid 1px
+}
+
+.col-2{
+    width: 45%;
+    border: green solid 1px
+
+}
+
+.col-3{
+    width: 70%;
+    border: green solid 1px
+
+}
+
+.col-bg{
+    background: #212614;
+    padding: 1em
 }
