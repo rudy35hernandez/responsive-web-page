@@ -131,7 +131,11 @@ nav a:focus {
 }
 
 .right-sub-sec{
-    width: 75%
+    width: 75%;
+}
+
+.right-sub-sec h2{
+    margin-top: 0;
 }
 
 .left-sub-sec{
