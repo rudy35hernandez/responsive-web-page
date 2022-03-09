@@ -123,6 +123,14 @@ nav a:focus {
     }
 }
 
+.main-content{
+    width: 65%;
+}
+
+.side-bar{
+    width: 25%;
+}
+
 .sub-sec{
     display: flex;
     justify-content: space-between;
@@ -144,6 +152,14 @@ nav a:focus {
     flex-direction: column;
 }
 
-.container{
+.container-2{
     display: flex;
+    justify-content: space-between;
 }
+
+.top-story, .recent-posts{
+    border: lightgray 18px solid;
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
+
