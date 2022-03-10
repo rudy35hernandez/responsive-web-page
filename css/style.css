@@ -124,7 +124,7 @@ nav a:focus {
 }
 
 .main-content{
-    width: 65%;
+    width: 70%;
 }
 
 .side-bar{
@@ -163,3 +163,14 @@ nav a:focus {
     padding: 1em;
 }
 
+.post h2{
+    margin-bottom: 0;
+}
+
+.post{
+    margin-bottom: 1.5em
+}
+
+.last-post{
+    margin-bottom: 0;
+}
