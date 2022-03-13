@@ -144,10 +144,10 @@ nav a:focus {
     width: 25%;
 }
 
-.sub-sec{
+.article-recent{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1em;
+    margin: 1em 0;
   
 }
 
