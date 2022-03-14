@@ -7,28 +7,35 @@ font-family: 'Ubuntu', sans-serif;
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 /* =================
 Typography
 ================= */
 
-h1 {
+h1,
+h2 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+}
+
+h1 {
     font-size: 2rem;
     margin: 0;
 }
 
 h2{
     color: #143774;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 h3{
     font-weight: 400;
-    font-size: .8rem;
+    font-size: .875rem;
+    color: #707070
 }
 
 .post-header{
@@ -44,6 +51,18 @@ h3{
     color: #1792d2;
     font-size: .75rem;
     margin: 0;
+}
+
+.article-read-more{
+    color: #1792D2;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus{
+    color: #143774
 }
 
 
@@ -83,6 +102,16 @@ img{
 header {
     background: #f8f8f8;
     padding: 2em 0;
+}
+
+.main-content{
+    margin-top: 0
+}
+
+.section-breakoff{
+    margin: 1em 0;
+    height: 1px;
+    background-color: black;
 }
 
 @media (max-width: 675px) {
@@ -198,7 +227,8 @@ footer{
     color: white
 }
 
-.article-read-more{
-    color: #143774;
-    text-decoration: none;
+
+
+#article-feature a{
+
 }
