@@ -1,0 +1,34 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    padding: 3em;
+    margin: 0;
+    background: lavender;
+}
+
+img{
+    width: 90%;
+}
+
+.columns{
+    display: flex;
+}
+
+.small-column{
+    
+}
+
+.mid-column{
+    
+}
+
+.big-column{
+    
+}
