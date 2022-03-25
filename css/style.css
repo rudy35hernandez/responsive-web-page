@@ -21,9 +21,22 @@ h1 {
     margin: 0;
 }
 
+h2{
+    color: #143774;
+    font-size: 24px;
+}
+
 h3{
     font-weight: 400;
     font-size: .8rem;
+}
+
+.post-header{
+    margin-top: 0;
+}
+
+.post-h2{
+    font-size: 16px;
 }
 
 .subtitle {
@@ -177,7 +190,7 @@ nav a:focus {
 
 
 footer{
-    background: rgb(7, 7, 109);
+    background: #143774;
     padding: 2em;
     text-align: center;
     color: white
