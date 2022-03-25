@@ -135,7 +135,7 @@ nav a:focus {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1em;
-    border: solid 1px;
+  
 }
 
 .right-sub-sec{
@@ -174,3 +174,12 @@ nav a:focus {
 .last-post{
     margin-bottom: 0;
 }
+
+
+footer{
+    background: rgb(7, 7, 109);
+    padding: 2em;
+    text-align: center;
+    color: white
+}
+
