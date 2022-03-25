@@ -46,10 +46,7 @@ h3{
     margin: 0;
 }
 
-.article-read-more{
-    color: #143774;
-    text-decoration: none;
-}
+
 
 /* =================
 Layout
@@ -175,7 +172,7 @@ nav a:focus {
     justify-content: space-between;
 }
 
-.widget, .recent-posts{
+.side-bar-widget, .recent-posts{
     border: lightgray 18px solid;
     margin-bottom: 1.5em;
     padding: 1em;
@@ -199,4 +196,9 @@ footer{
     padding: 2em;
     text-align: center;
     color: white
+}
+
+.article-read-more{
+    color: #143774;
+    text-decoration: none;
 }
