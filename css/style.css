@@ -11,6 +11,11 @@ body {
     font-weight: 300;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 /* =================
 Typography
 ================= */
@@ -107,9 +112,7 @@ Layout
     width: 25%;
 }
 
-img{
-    width: 100%;
-}
+
 
 .container-flex {
     display: flex;
@@ -131,6 +134,7 @@ header {
     background-color: black;
 }
 
+
 @media (max-width: 675px) {
     .container-nav {
         flex-direction: column;
@@ -139,6 +143,16 @@ header {
     header {
         text-align: center;
     }
+}
+
+/* main content & sidebar */
+
+.main-content{
+    width: 70%;
+}
+
+.side-bar{
+    width: 25%;
 }
 
 /* navigation */
@@ -175,6 +189,10 @@ nav a:focus {
 }
 
 @media (max-width: 675px) {
+    .container-flex{
+        flex-direction: column;
+    }
+
     nav ul {
         flex-direction: column;
     }
@@ -184,13 +202,7 @@ nav a:focus {
     }
 }
 
-.main-content{
-    width: 70%;
-}
 
-.side-bar{
-    width: 25%;
-}
 
 .article-recent{
     display: flex;
