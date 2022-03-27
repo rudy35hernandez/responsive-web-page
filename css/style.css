@@ -116,12 +116,14 @@ Layout
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 header {
     background: #f8f8f8;
     padding: 2em 0;
+    text-align: center;
 }
 
 .main-content{
@@ -135,25 +137,14 @@ header {
 }
 
 
-@media (max-width: 675px) {
-    .container-nav {
-        flex-direction: column;
-    }
+
     
-    header {
-        text-align: center;
-    }
-}
+  
+
 
 /* main content & sidebar */
 
-.main-content{
-    width: 70%;
-}
 
-.side-bar{
-    width: 25%;
-}
 
 /* navigation */
 
@@ -189,10 +180,7 @@ nav a:focus {
 }
 
 @media (max-width: 675px) {
-    .container-flex{
-        flex-direction: column;
-    }
-
+    
     nav ul {
         flex-direction: column;
     }
