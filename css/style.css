@@ -136,6 +136,19 @@ header {
     background-color: black;
 }
 
+@media (min-width: 675px) {
+    .container-flex{
+        flex-direction: row;
+    }
+
+    main{
+        width: 70%;
+    }
+
+    aside{
+        width: 25%
+    }
+}
 
 
     
