@@ -37,11 +37,7 @@ h2{
     font-size: 1.5rem;
 }
 
-h3{
-    font-weight: 400;
-    font-size: .875rem;
-    color: #707070
-}
+
 
 a {
     color: #1792d2;
@@ -71,11 +67,21 @@ strong{
     margin: 0;
 }
 
+.article-read-more,
+.article-info{
+    font-size: .875rem
+}
+
 .article-read-more{
     color: #1792D2;
     text-decoration: none;
-    font-size: 0.875rem;
     font-weight: 700;
+}
+
+.article-info{
+    font-weight: 400;
+    color: #707070;
+    margin: 2em 0;
 }
 
 .article-read-more:hover,
@@ -98,20 +104,6 @@ Layout
     max-width: 900px;
     margin: 0 auto;
 }
-
-.art-container{
-    display: flex;
-    margin: 0 auto;
-}
-
-.left-side{
-    width: 70%;
-}
-
-.right-side{
-    width: 25%;
-}
-
 
 
 .container-flex {
@@ -136,17 +128,19 @@ header {
     background-color: black;
 }
 
+
+
 @media (min-width: 675px) {
     .container-flex{
         flex-direction: row;
     }
 
     main{
-        width: 70%;
+        width: 75%;
     }
 
     aside{
-        width: 25%
+        width: 20%
     }
 }
 
@@ -205,33 +199,20 @@ nav a:focus {
 
 
 
-.article-recent{
-    display: flex;
-    justify-content: space-between;
-    margin: 1em 0;
-  
-}
 
-.right-sub-sec{
-    width: 75%;
-}
+
 
 .right-sub-sec h2{
     margin-top: 0;
 }
 
-.left-sub-sec{
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 
 .side-bar-widget, .recent-posts{
-    border: lightgray 18px solid;
     margin-bottom: 1.5em;
-    padding: 1em;
+   
 }
 
 .post h2{
