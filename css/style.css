@@ -21,16 +21,17 @@ Typography
 ================= */
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+    margin-top: 0
 }
 
 h1 {
     font-size: 2rem;
-    margin: 0;
-}
+   }
 
 h2{
     color: #143774;
@@ -116,6 +117,7 @@ header {
     background: #f8f8f8;
     padding: 2em 0;
     text-align: center;
+    margin-bottom: 2em
 }
 
 .main-content{
@@ -128,6 +130,11 @@ header {
     background-color: black;
 }
 
+.article-recent{
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+}
 
 
 @media (min-width: 675px) {
@@ -215,9 +222,6 @@ nav a:focus {
    
 }
 
-.post h2{
-    margin-bottom: 0;
-}
 
 .post{
     margin-bottom: 1.5em
@@ -237,6 +241,17 @@ footer{
 
 
 
-#article-feature a{
+@media (min-width: 675px){
+    .article-recent{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    .left-sub-sec{
+        width: 40%
+    }
+
+    .right-sub-sec{
+        width: 55%
+    }
 }
