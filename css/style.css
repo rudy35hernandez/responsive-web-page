@@ -16,6 +16,12 @@ img{
     display: block;
 }
 
+.image-full{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
 /* =================
 Typography
 ================= */
@@ -39,7 +45,9 @@ h2{
     font-size: 1.5rem;
 }
 
-
+h3{
+    color: #1792d2
+}
 
 a {
     color: #1792d2;
@@ -170,6 +178,8 @@ footer{
 
     aside{
         width: 25%;
+        min-width: 200px;
+        margin-left: 1em
     }
 }
 
@@ -278,12 +288,20 @@ nav a:focus {
         min-height: 200px;
         object-fit: cover;
     }
+
+    .image-full{
+        width: 100%;
+        min-height: 100px;
+    }
+
 }
 
 
 /*********************** widgets ***********************/
 
 .side-bar-widget{
+    display: flex;
+    flex-direction: column;
     border: solid 16px rgb(216, 212, 212);
     padding: 1em;
 }
