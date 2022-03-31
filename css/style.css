@@ -123,8 +123,19 @@ header {
     margin-bottom: 2em
 }
 
+footer{
+    background: #143774;
+    padding: 2em;
+    text-align: center;
+    color: white
+}
+
 .main-content{
     margin-top: 0
+}
+
+.article-recent{
+    margin-bottom: 2em
 }
 
 .section-breakoff{
@@ -241,12 +252,7 @@ nav a:focus {
 }
 
 
-footer{
-    background: #143774;
-    padding: 2em;
-    text-align: center;
-    color: white
-}
+
 
 
 
