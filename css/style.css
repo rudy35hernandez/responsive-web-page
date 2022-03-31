@@ -55,6 +55,9 @@ strong{
 
 .post-header{
     margin-top: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Ubuntu', 'sans-serif';
 }
 
 .post-h2{
@@ -130,10 +133,16 @@ header {
     background-color: black;
 }
 
-.article-recent{
-    margin-bottom: 2em;
+.widget-recent-post {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1em;
+}
+
+.widget-recent-post:last-child{
+    border: none;
+    margin-bottom: 0;
 }
 
 
@@ -143,11 +152,11 @@ header {
     }
 
     main{
-        width: 75%;
+        width: 70%;
     }
 
     aside{
-        width: 20%
+        width: 25%;
     }
 }
 
@@ -254,4 +263,24 @@ footer{
     .right-sub-sec{
         width: 55%
     }
+
+    .article-recent img{
+        width: 100%;
+        min-height: 200px;
+        object-fit: cover;
+    }
 }
+
+
+/*********************** widgets ***********************/
+
+.side-bar-widget{
+    border: solid 16px rgb(216, 212, 212);
+    padding: 1em;
+}
+
+.recent-posts{
+    border: solid 16px rgb(216, 212, 212);
+    padding: 1em;
+}
+
