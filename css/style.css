@@ -31,6 +31,7 @@ h3 {
 
 h1 {
     font-size: 2rem;
+    margin: 0
    }
 
 h2{
@@ -61,7 +62,7 @@ strong{
 }
 
 .post-h2{
-    font-size: 16px;
+    font-size: 1.125rem;
 }
 
 .subtitle {
@@ -125,7 +126,7 @@ header {
 
 footer{
     background: #143774;
-    padding: 2em;
+    padding: 2em 0;
     text-align: center;
     color: white
 }
@@ -135,7 +136,7 @@ footer{
 }
 
 .article-recent{
-    margin-bottom: 2em
+    margin-bottom: 2em;
 }
 
 .section-breakoff{
@@ -155,6 +156,7 @@ footer{
     border: none;
     margin-bottom: 0;
 }
+
 
 
 @media (min-width: 675px) {
@@ -258,6 +260,7 @@ nav a:focus {
 
 @media (min-width: 675px){
     .article-recent{
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
