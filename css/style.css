@@ -54,11 +54,6 @@ a {
     color: #1792d2;
 }
 
-nav li a{
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 a:hover,
 a:focus {
     color: #143774;
@@ -157,7 +152,7 @@ footer{
     background: #143774;
     padding: 2em 0;
     text-align: center;
-    color: white
+    color: rgba(255,255,255, 0.65)
 }
 
 .main-content{
@@ -231,6 +226,8 @@ nav a {
     color: #707070;
     font-weight: 700;
     padding: .25em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav a:hover,
